@@ -1,50 +1,50 @@
-# Serial LED Controller (Educational Project)
+# Serial LED Controller
 
-**This repository was created for educational purposes only.**
+**Этот репозиторий создан в учебных целях.**
 
-A simple WinForms application example for working with COM ports and controlling LEDs.
-The code demonstrates basic principles:
+Простой пример WinForms-приложения для работы с COM-портом и управления LED. 
+Код демонстрирует базовые принципы:
 
-- Opening/closing a serial port
-- Sending commands via SerialPort
-- Proper resource disposal
+- Открытие/закрытие последовательного порта
+- Отправка команд через SerialPort
+- Корректное освобождение ресурсов
 
-⚠️ **Not for production use.** For learning and demonstration purposes only.
+⚠️ **Не для production-использования.** Только для обучения и ознакомления.
 
-The project is not maintained and does not claim to be production-quality.
+Проект не поддерживается и не претендует на промышленное качество.
 
-## 📚 Who this project is for
+## 📚 Для кого этот проект
 
-This repository was created **exclusively for educational purposes** and **personal development**. It presents an example implementation of a simple WinForms application for working with COM ports.
+Этот репозиторий создан **исключительно в образовательных целях** и для **личного развития**. Здесь представлен пример реализации простого WinForms-приложения для работы с COM-портом.
 
-## 🎯 Project Goals
+## 🎯 Цели проекта
 
-- Learning how to work with `System.IO.Ports` in .NET
-- Understanding event mechanisms in Windows Forms
-- Practicing method overriding (`OnFormClosing`)
-- Exploring serial port communication
+- Изучение работы с `System.IO.Ports` в .NET
+- Понимание механизма событий в Windows Forms
+- Практика переопределения методов (`OnFormClosing`)
+- Освоение работы с последовательными портами
 
-## ⚠️ Important Note
+## ⚠️ Важное примечание
 
-This code is **not intended** for use in production environments, commercial projects, or critical systems. It is a learning example demonstrating basic concepts.
+Данный код **не предназначен** для использования в production-средах, коммерческих проектах или критически важных системах. Это учебный пример, демонстрирующий базовые концепции.
 
-## 📖 What you can learn from this code
+## 📖 Что можно почерпнуть из этого кода
 
-- How to connect to a COM port from C#
-- How to send commands via serial port
-- How to properly release resources when closing an application
-- How to dynamically update the list of available ports
+- Как подключаться к COM-порту из C#
+- Как отправлять команды через последовательный порт
+- Как корректно освобождать ресурсы при закрытии приложения
+- Как обновлять список доступных портов динамически
 
-## 🔧 Technologies (for reference only)
+## 🔧 Технологии (только для ознакомления)
 
 - .NET Windows Forms
 - C#
 - System.IO.Ports
 
-## 🤝 Contributing to the Project
+## 🤝 Вклад в проект
 
-The project is not maintained or developed further. This is archived/educational material.
+Проект не поддерживается и не развивается. Это архивный/учебный материал.
 
 ---
 
-*This code is part of my journey in learning C# and .NET. It's here to show how I learned, not how to write commercial software.*
+*Этот код — часть моего пути в изучении C# и .NET. Он здесь, чтобы показать, как я учился, а не как нужно писать commercial-software.*
